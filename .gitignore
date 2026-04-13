@@ -1,0 +1,31 @@
+# Build artifacts
+build/
+
+# Assignment PDF (not part of the implementation)
+*.pdf
+
+# Output files
+output/*.csv
+output/*.jpg
+output/*.png
+
+# Input videos (usually large)
+input/*.mp4
+input/*.avi
+input/*.ts
+
+# Model weights (large binary)
+*.onnx
+
+# ONNXRuntime (downloaded during build)
+onnxruntime/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

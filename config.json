@@ -1,0 +1,28 @@
+{
+    "model": {
+        "path": "yolov8n.onnx",
+        "confidence_threshold": 0.4,
+        "nms_threshold": 0.4
+    },
+    "zones": {
+        "y_min": 380,
+        "y_max": 420
+    },
+    "speed": {
+        "pixels_per_meter": 0.7,
+        "max_speed_kph": 160,
+        "min_speed_kph": 25,
+        "ema_alpha": 0.1,
+        "min_samples": 5
+    },
+    "tracker": {
+        "max_disappeared": 30,
+        "max_distance": 300.0
+    },
+    "target_classes": {
+        "car": [2],
+        "motorcycle": [3],
+        "bus": [5],
+        "truck": [7]
+    }
+}
