@@ -9,10 +9,10 @@ output/*.csv
 output/*.jpg
 output/*.png
 
-# Input videos (usually large)
-input/*.mp4
-input/*.avi
-input/*.ts
+# Input videos (usually large — remove these lines to include them)
+# input/*.mp4
+# input/*.avi
+# input/*.ts
 
 # Model weights (large binary)
 *.onnx
